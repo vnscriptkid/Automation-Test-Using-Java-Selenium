@@ -23,10 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="354d4943-83f0-4c60-86a4-d4943b3b9363" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/DynamicLoading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestDynamicLoading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/TestLogin.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,14 +73,47 @@
       <recent name="D:\workspace\testing\my-app\vendor" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestLogin">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestDynamicLoading">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDynamicLoading" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestDynamicLoading" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDynamicLoading.hiddenElementRendered" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestDynamicLoading" />
+      <option name="METHOD_NAME" value="hiddenElementRendered" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,6 +167,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestDynamicLoading" />
+        <item itemvalue="JUnit.TestDynamicLoading.hiddenElementRendered" />
         <item itemvalue="JUnit.TestLogin" />
         <item itemvalue="JUnit.TestLogin.failed" />
         <item itemvalue="JUnit.TestLogin.succeeded" />
@@ -145,7 +184,8 @@
       <option name="presentableId" value="Default" />
       <updated>1598508004801</updated>
       <workItem from="1598508005887" duration="10000" />
-      <workItem from="1598508020524" duration="9847000" />
+      <workItem from="1598508020524" duration="11232000" />
+      <workItem from="1598538819245" duration="3995000" />
     </task>
     <servers />
   </component>
@@ -162,44 +202,49 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1598513527753">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1598513527753" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1598525333573">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1598527952888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598525333573" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1598525333573">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598527952888" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1598527952887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598525333573" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1598525333572">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598527952887" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1598527952887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598525333572" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1598525333573">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598527952887" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1598527952888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598525333573" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1598524825480">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598527952888" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1598527952889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598524825480" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1598524825480">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598527952889" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1598527952888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598524825480" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1598524825480">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598527952888" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1598527952888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598524825480" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1598524825480">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598527952888" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1598527952888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598524825480" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598527952888" />
+    <state x="469" y="170" key="refactoring.ChangeSignatureDialog" timestamp="1598546420130">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="469" y="170" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1598546420130" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1598514656490">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

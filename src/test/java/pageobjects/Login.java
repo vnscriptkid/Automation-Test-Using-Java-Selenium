@@ -15,7 +15,7 @@ public class Login extends BasePage {
     public Login(WebDriver driver) throws Exception {
         super(driver);
         get("https://the-internet.herokuapp.com/login");
-        if (!isDisplayed(formLocator)) {
+        if (!isDisplayed(formLocator, 10)) {
             throw new Exception("Page is not ready");
         }
     }
@@ -27,10 +27,10 @@ public class Login extends BasePage {
     }
 
     public boolean successMessagePresent() {
-        return isDisplayed(successMessageLocator);
+        return isDisplayed(successMessageLocator, 10);
     }
 
     public boolean failureMessagePresent() {
-        return isDisplayed(failedMessageLocator);
+        return isDisplayed(failedMessageLocator, 10);
     }
 }
