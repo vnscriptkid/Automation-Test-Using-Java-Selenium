@@ -11,6 +11,7 @@ public class Login {
     private By submitBtnLocator = By.cssSelector("button[type=submit]");
     private By successMessageLocator = By.cssSelector(".flash.success");
     private By formLocaltor = By.id("login");
+    private By failedMessageLocator = By.cssSelector(".flash.error");
 
     public Login(WebDriver driver) throws Exception {
         this.driver = driver;
@@ -28,5 +29,9 @@ public class Login {
 
     public boolean successMessagePresent() {
         return driver.findElement(successMessageLocator).isDisplayed();
+    }
+
+    public boolean failureMessagePresent() {
+        return driver.findElement(failedMessageLocator).isDisplayed();
     }
 }

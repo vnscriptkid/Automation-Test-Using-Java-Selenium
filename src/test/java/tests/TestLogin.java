@@ -4,7 +4,6 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import pageobjects.Login;
@@ -30,6 +29,14 @@ public class TestLogin {
         login.with("tomsmith", "SuperSecretPassword!");
         Assert.assertTrue(
                 login.successMessagePresent()
+        );
+    }
+
+    @Test
+    public void failed() {
+        login.with("tomsmith", "bad password");
+        Assert.assertTrue(
+                login.failureMessagePresent()
         );
     }
 }
