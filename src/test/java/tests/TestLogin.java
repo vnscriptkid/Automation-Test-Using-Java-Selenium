@@ -7,14 +7,17 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import pageobjects.Login;
 
 public class TestLogin {
     private WebDriver driver;
+    private Login login;
 
     @Before
-    public void setUp() {
+    public void setUp() throws Exception {
         System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/vendor/geckodriver.exe");
         driver = new FirefoxDriver();
+        login = new Login(driver);
     }
 
     @After
@@ -24,12 +27,9 @@ public class TestLogin {
 
     @Test
     public void succeeded() {
-        driver.get("https://the-internet.herokuapp.com/login");
-        driver.findElement(By.id("username")).sendKeys("tomsmith");
-        driver.findElement(By.id("password")).sendKeys("SuperSecretPassword!");
-        driver.findElement(By.cssSelector("button[type=submit]")).click();
+        login.with("tomsmith", "SuperSecretPassword!");
         Assert.assertTrue(
-                driver.findElement(By.cssSelector(".flash.success")).isDisplayed()
+                login.successMessagePresent()
         );
     }
 }

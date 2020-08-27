@@ -3,8 +3,31 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="354d4943-83f0-4c60-86a4-d4943b3b9363" name="Default Changelist" comment="" />
+    <list default="true" id="354d4943-83f0-4c60-86a4-d4943b3b9363" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/TestLogin.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +39,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -31,9 +57,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -83,33 +111,48 @@
       <option name="presentableId" value="Default" />
       <updated>1598508004801</updated>
       <workItem from="1598508005887" duration="10000" />
-      <workItem from="1598508020524" duration="3245000" />
+      <workItem from="1598508020524" duration="5482000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1598511339917">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1598513527753">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598511339917" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1598511339917">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1598513527753" />
+    <state width="1493" height="335" key="GridCell.Tab.0.bottom" timestamp="1598514493866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598511339917" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1598511339916">
+    <state width="1493" height="335" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598514493866" />
+    <state width="1493" height="335" key="GridCell.Tab.0.center" timestamp="1598514493866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598511339916" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1598511339917">
+    <state width="1493" height="335" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598514493866" />
+    <state width="1493" height="335" key="GridCell.Tab.0.left" timestamp="1598514493866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598511339917" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1598511488888">
+    <state width="1493" height="335" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598514493866" />
+    <state width="1493" height="335" key="GridCell.Tab.0.right" timestamp="1598514493866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598511488888" />
+    <state width="1493" height="335" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598514493866" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1598514656490">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598514656490" />
   </component>
 </project>
