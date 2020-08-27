@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import tests.Config;
 
 public class Login extends BasePage {
-
     private By usernameLocator = By.id("username");
     private By passwordLocator = By.id("password");
     private By submitBtnLocator = By.cssSelector("button[type=submit]");
