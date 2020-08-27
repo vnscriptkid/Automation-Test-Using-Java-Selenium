@@ -27,16 +27,12 @@ public class TestLogin {
     @Test
     public void succeeded() {
         login.with("tomsmith", "SuperSecretPassword!");
-        Assert.assertTrue(
-                login.successMessagePresent()
-        );
+        Assert.assertTrue(login.successMessagePresent());
     }
 
     @Test
     public void failed() {
         login.with("tomsmith", "bad password");
-        Assert.assertTrue(
-                login.failureMessagePresent()
-        );
+        Assert.assertTrue(login.failureMessagePresent());
     }
 }
