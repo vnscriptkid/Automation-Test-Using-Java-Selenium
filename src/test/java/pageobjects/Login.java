@@ -2,6 +2,7 @@ package pageobjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import tests.Config;
 
 public class Login extends BasePage {
 
@@ -14,7 +15,7 @@ public class Login extends BasePage {
 
     public Login(WebDriver driver) throws Exception {
         super(driver);
-        get("https://the-internet.herokuapp.com/login");
+        get(Config.baseUrl + "login");
         if (!isDisplayed(formLocator, 10)) {
             throw new Exception("Page is not ready");
         }

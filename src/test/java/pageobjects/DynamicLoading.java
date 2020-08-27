@@ -2,6 +2,7 @@ package pageobjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import tests.Config;
 
 public class DynamicLoading extends BasePage {
     private By startBtnLocator = By.cssSelector("#start button");
@@ -12,7 +13,7 @@ public class DynamicLoading extends BasePage {
     }
 
     public void loadExample(String number) {
-        get("https://the-internet.herokuapp.com/dynamic_loading/" + number);
+        get(Config.baseUrl + "dynamic_loading/" + number);
         click(startBtnLocator);
     }
 
