@@ -8,20 +8,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import pageobjects.Login;
 
-public class TestLogin {
-    private WebDriver driver;
+public class TestLogin extends BaseTest {
     private Login login;
 
     @Before
     public void setUp() throws Exception {
-        System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/vendor/geckodriver.exe");
-        driver = new FirefoxDriver();
         login = new Login(driver);
-    }
-
-    @After
-    public void tearDown() {
-        driver.quit();
     }
 
     @Test

@@ -6,22 +6,15 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import pageobjects.BasePage;
 import pageobjects.DynamicLoading;
 
-public class TestDynamicLoading {
-    private WebDriver driver;
+public class TestDynamicLoading extends BaseTest {
     private DynamicLoading dynamicLoading;
 
     @Before
-    public void setUp() throws Exception {
-        System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/vendor/geckodriver.exe");
-        driver = new FirefoxDriver();
+    public void setUp() {
         dynamicLoading = new DynamicLoading(driver);
-    }
-
-    @After
-    public void tearDown() {
-        driver.quit();
     }
 
     @Test
