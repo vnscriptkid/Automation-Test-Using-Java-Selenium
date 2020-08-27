@@ -3,7 +3,9 @@ package tests;
 import org.junit.Rule;
 import org.junit.rules.ExternalResource;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import static tests.Config.*;
 
 public class BaseTest {
     protected WebDriver driver;
@@ -12,8 +14,13 @@ public class BaseTest {
     public ExternalResource resource = new ExternalResource() {
         @Override
         protected void before() throws Throwable {
-            System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/vendor/geckodriver.exe");
-            driver = new FirefoxDriver();
+            if (browserName.equals("firefox")) {
+                System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/vendor/geckodriver.exe");
+                driver = new FirefoxDriver();
+            } else if (browserName.equals("chrome")) {
+                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/vendor/chromedriver.exe");
+                driver = new ChromeDriver();
+            }
         }
 
         @Override
