@@ -24,8 +24,10 @@
   <component name="ChangeListManager">
     <list default="true" id="354d4943-83f0-4c60-86a4-d4943b3b9363" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/app/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/app/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/TestLogin.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,12 @@
         <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="autoDetectCompiler" value="false" />
+        <option name="jdkForImporter" value="14" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1gfaGJdaxu2V15HeCSJmAcJw75h" />
   <component name="ProjectViewState">
@@ -60,24 +68,32 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor" />
+    <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\testing\my-app\vendor" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestLogin">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestDynamicLoading">
+    <configuration default="true" type="Application" factoryName="Application">
+      <envs>
+        <env name="SAUCE_USERNAME" value="vnscriptkid" />
+        <env name="SAUCE_ACCESS_KEY" value="03d29520-1bd4-499f-b3f8-2e784d7957e0" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -205,10 +221,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestDynamicLoading" />
         <item itemvalue="JUnit.TestLogin" />
         <item itemvalue="JUnit.TestDynamicLoading.hiddenElementDisplayed" />
         <item itemvalue="JUnit.TestLogin.succeeded" />
-        <item itemvalue="JUnit.TestDynamicLoading" />
         <item itemvalue="JUnit.TestDynamicLoading.hiddenElementRendered" />
       </list>
     </recent_temporary>
@@ -225,7 +241,10 @@
       <workItem from="1598508020524" duration="11232000" />
       <workItem from="1598538819245" duration="8712000" />
       <workItem from="1598584497729" duration="4299000" />
-      <workItem from="1598599480066" duration="1842000" />
+      <workItem from="1598599480066" duration="4365000" />
+      <workItem from="1598608605527" duration="1269000" />
+      <workItem from="1598687686137" duration="971000" />
+      <workItem from="1598688669441" duration="1123000" />
     </task>
     <servers />
   </component>
@@ -245,30 +264,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598599461566">
+    <state x="223" y="67" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598689454794">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1598599461566" />
+    <state x="223" y="67" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1598689454794" />
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1598600830904">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1598600830904" />
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1598600924827">
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1598608585889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598600924827" />
-    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1598600924827">
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598608585889" />
+    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1598608585888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598600924827" />
-    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1598600924826">
+    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598608585888" />
+    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1598608585888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598600924826" />
-    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1598600924827">
+    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598608585888" />
+    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1598608585888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598600924827" />
+    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598608585888" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1598527952889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -285,14 +304,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598527952888" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1598598777584">
+    <state x="277" y="57" key="SettingsEditor" timestamp="1598688451839">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598598777584" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598550860418">
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598688451839" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598688096178">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598550860418" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598688096178" />
     <state x="469" y="170" key="refactoring.ChangeSignatureDialog" timestamp="1598546420130">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
