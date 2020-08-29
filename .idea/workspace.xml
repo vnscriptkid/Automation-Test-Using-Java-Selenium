@@ -23,9 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="354d4943-83f0-4c60-86a4-d4943b3b9363" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestDownload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DownloadFileRevisited.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/UploadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/UploadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestDownload.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,7 @@
       <recent name="D:\workspace\testing\my-app\vendor" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestDownload.testDownloadFileOnFirefox">
+  <component name="RunManager" selected="JUnit.DownloadFileRevisited.downloadFileRevisitedTest">
     <configuration default="true" type="Application" factoryName="Application">
       <envs>
         <env name="SAUCE_USERNAME" value="vnscriptkid" />
@@ -86,15 +88,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+    <configuration name="DownloadFileRevisited.downloadFileRevisitedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.DownloadFileRevisited" />
+      <option name="METHOD_NAME" value="downloadFileRevisitedTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="SAUCE_USERNAME" value="vnscriptkid" />
+        <env name="SAUCE_ACCESS_KEY" value="03d29520-1bd4-499f-b3f8-2e784d7957e0" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,28 +144,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TestDownload" />
       <option name="METHOD_NAME" value="testDownloadFileOnFirefox" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <envs>
-        <env name="SAUCE_USERNAME" value="vnscriptkid" />
-        <env name="SAUCE_ACCESS_KEY" value="03d29520-1bd4-499f-b3f8-2e784d7957e0" />
-      </envs>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLogin.succeeded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-app" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestLogin" />
-      <option name="METHOD_NAME" value="succeeded" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <envs>
@@ -224,19 +213,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestLogin.succeeded" />
       <item itemvalue="JUnit.UploadTest.uploadFile" />
       <item itemvalue="JUnit.UploadTest" />
       <item itemvalue="JUnit.TestDownload.alwaysTrue" />
       <item itemvalue="JUnit.TestDownload.testDownloadFileOnFirefox" />
+      <item itemvalue="JUnit.DownloadFileRevisited.downloadFileRevisitedTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DownloadFileRevisited.downloadFileRevisitedTest" />
         <item itemvalue="JUnit.TestDownload.testDownloadFileOnFirefox" />
         <item itemvalue="JUnit.TestDownload.alwaysTrue" />
         <item itemvalue="JUnit.UploadTest.uploadFile" />
         <item itemvalue="JUnit.UploadTest" />
-        <item itemvalue="JUnit.TestLogin.succeeded" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +245,7 @@
       <workItem from="1598608605527" duration="1269000" />
       <workItem from="1598687686137" duration="971000" />
       <workItem from="1598688669441" duration="6439000" />
-      <workItem from="1598702661138" duration="8795000" />
+      <workItem from="1598702661138" duration="11548000" />
     </task>
     <servers />
   </component>
@@ -284,38 +273,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1598600830904" />
-    <state width="1493" height="286" key="GridCell.Tab.0.bottom" timestamp="1598710596347">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1598717183860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="286" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598710596347" />
-    <state width="1493" height="286" key="GridCell.Tab.0.center" timestamp="1598710596347">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598717183860" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1598717183859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="286" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598710596347" />
-    <state width="1493" height="286" key="GridCell.Tab.0.left" timestamp="1598710596346">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598717183859" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1598717183859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="286" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598710596346" />
-    <state width="1493" height="286" key="GridCell.Tab.0.right" timestamp="1598710596347">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598717183859" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1598717183860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="286" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598710596347" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1598704825679">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598717183860" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1598717183860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598704825679" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1598704825679">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598717183860" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1598717183860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598704825679" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1598704825679">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598717183860" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1598717183860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598704825679" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1598704825679">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598717183860" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1598717183860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598704825679" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598717183860" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1598688451839">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
