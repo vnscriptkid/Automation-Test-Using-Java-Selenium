@@ -23,13 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="354d4943-83f0-4c60-86a4-d4943b3b9363" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/groups/All.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/groups/Deep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/groups/Shallow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/FileUpload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/UploadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestDynamicLoading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestDynamicLoading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/app/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/app/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/TestLogin.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -81,7 +80,7 @@
       <recent name="D:\workspace\testing\my-app\vendor" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestDynamicLoading">
+  <component name="RunManager" selected="JUnit.UploadTest.uploadFile">
     <configuration default="true" type="Application" factoryName="Application">
       <envs>
         <env name="SAUCE_USERNAME" value="vnscriptkid" />
@@ -91,13 +90,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,44 +117,6 @@
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDynamicLoading.hiddenElementDisplayed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-app" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestDynamicLoading" />
-      <option name="METHOD_NAME" value="hiddenElementDisplayed" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <envs>
-        <env name="SAUCE_USERNAME" value="vnscriptkid" />
-        <env name="SAUCE_ACCESS_KEY" value="03d29520-1bd4-499f-b3f8-2e784d7957e0" />
-      </envs>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDynamicLoading.hiddenElementRendered" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestDynamicLoading" />
-      <option name="METHOD_NAME" value="hiddenElementRendered" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,6 +165,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UploadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UploadTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="SAUCE_USERNAME" value="vnscriptkid" />
+        <env name="SAUCE_ACCESS_KEY" value="03d29520-1bd4-499f-b3f8-2e784d7957e0" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadTest.uploadFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UploadTest" />
+      <option name="METHOD_NAME" value="uploadFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="SAUCE_USERNAME" value="vnscriptkid" />
+        <env name="SAUCE_ACCESS_KEY" value="03d29520-1bd4-499f-b3f8-2e784d7957e0" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <useClassPathOnly />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -218,18 +225,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TestDynamicLoading" />
-      <item itemvalue="JUnit.TestDynamicLoading.hiddenElementRendered" />
       <item itemvalue="JUnit.TestLogin" />
       <item itemvalue="JUnit.TestLogin.succeeded" />
-      <item itemvalue="JUnit.TestDynamicLoading.hiddenElementDisplayed" />
+      <item itemvalue="JUnit.UploadTest.uploadFile" />
+      <item itemvalue="JUnit.UploadTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UploadTest.uploadFile" />
+        <item itemvalue="JUnit.UploadTest" />
+        <item itemvalue="JUnit.TestLogin.succeeded" />
         <item itemvalue="JUnit.TestDynamicLoading" />
         <item itemvalue="JUnit.TestLogin" />
-        <item itemvalue="JUnit.TestDynamicLoading.hiddenElementDisplayed" />
-        <item itemvalue="JUnit.TestLogin.succeeded" />
-        <item itemvalue="JUnit.TestDynamicLoading.hiddenElementRendered" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +255,8 @@
       <workItem from="1598599480066" duration="4365000" />
       <workItem from="1598608605527" duration="1269000" />
       <workItem from="1598687686137" duration="971000" />
-      <workItem from="1598688669441" duration="2895000" />
+      <workItem from="1598688669441" duration="6439000" />
+      <workItem from="1598702661138" duration="5331000" />
     </task>
     <servers />
   </component>
@@ -268,46 +276,46 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598689860379">
+    <state x="223" y="67" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598699400723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1598689860379" />
+    <state x="223" y="67" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1598699400723" />
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1598600830904">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1598600830904" />
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1598608585889">
+    <state width="1493" height="286" key="GridCell.Tab.0.bottom" timestamp="1598707742692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598608585889" />
-    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1598608585888">
+    <state width="1493" height="286" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598707742692" />
+    <state width="1493" height="286" key="GridCell.Tab.0.center" timestamp="1598707742692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598608585888" />
-    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1598608585888">
+    <state width="1493" height="286" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598707742692" />
+    <state width="1493" height="286" key="GridCell.Tab.0.left" timestamp="1598707742691">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598608585888" />
-    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1598608585888">
+    <state width="1493" height="286" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598707742691" />
+    <state width="1493" height="286" key="GridCell.Tab.0.right" timestamp="1598707742692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598608585888" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1598527952889">
+    <state width="1493" height="286" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598707742692" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1598704825679">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598527952889" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1598527952888">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598704825679" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1598704825679">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598527952888" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1598527952888">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598704825679" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1598704825679">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598527952888" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1598527952888">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598704825679" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1598704825679">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598527952888" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598704825679" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1598688451839">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
