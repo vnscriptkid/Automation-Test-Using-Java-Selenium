@@ -3,8 +3,11 @@ package tests;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 import pageobjects.DynamicLoading;
+import tests.groups.Deep;
 
+@Category(Deep.class)
 public class TestDynamicLoading extends BaseTest {
     private DynamicLoading dynamicLoading;
 
