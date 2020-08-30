@@ -23,10 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="354d4943-83f0-4c60-86a4-d4943b3b9363" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestScreenshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestUsingGrid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,7 @@
       <recent name="D:\workspace\testing\my-app\vendor" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestScreenshot.OnError">
+  <component name="RunManager" selected="JUnit.TestUsingGrid.gridTest">
     <configuration default="true" type="Application" factoryName="Application">
       <envs>
         <env name="SAUCE_USERNAME" value="vnscriptkid" />
@@ -87,15 +85,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,7 +184,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UploadTest.uploadFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUsingGrid.gridTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-app" />
       <useClassPathOnly />
       <extension name="coverage">
@@ -198,8 +194,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UploadTest" />
-      <option name="METHOD_NAME" value="uploadFile" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestUsingGrid" />
+      <option name="METHOD_NAME" value="gridTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <envs>
@@ -225,19 +221,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UploadTest.uploadFile" />
       <item itemvalue="JUnit.TestDownload.alwaysTrue" />
       <item itemvalue="JUnit.TestDownload.testDownloadFileOnFirefox" />
       <item itemvalue="JUnit.DownloadFileRevisited.downloadFileRevisitedTest" />
       <item itemvalue="JUnit.TestScreenshot.OnError" />
+      <item itemvalue="JUnit.TestUsingGrid.gridTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestUsingGrid.gridTest" />
         <item itemvalue="JUnit.TestScreenshot.OnError" />
         <item itemvalue="JUnit.DownloadFileRevisited.downloadFileRevisitedTest" />
         <item itemvalue="JUnit.TestDownload.testDownloadFileOnFirefox" />
         <item itemvalue="JUnit.TestDownload.alwaysTrue" />
-        <item itemvalue="JUnit.UploadTest.uploadFile" />
       </list>
     </recent_temporary>
   </component>
@@ -260,6 +256,7 @@
       <workItem from="1598702661138" duration="11548000" />
       <workItem from="1598724357057" duration="1589000" />
       <workItem from="1598728414659" duration="752000" />
+      <workItem from="1598757889513" duration="1045000" />
     </task>
     <servers />
   </component>
