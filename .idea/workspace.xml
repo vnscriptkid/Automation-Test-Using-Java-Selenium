@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="354d4943-83f0-4c60-86a4-d4943b3b9363" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +75,7 @@
       <recent name="D:\workspace\testing\my-app\vendor" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAlert.makeSureThirdButtonWorksCorrectly">
+  <component name="RunManager" selected="JUnit.TestTable.testSecondTableWebsitesSorted">
     <configuration default="true" type="Application" factoryName="Application">
       <envs>
         <env name="SAUCE_USERNAME" value="vnscriptkid" />
@@ -92,50 +92,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAlert.makeSureFirstButtonWorksCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-app" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestAlert" />
-      <option name="METHOD_NAME" value="makeSureFirstButtonWorksCorrectly" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <envs>
-        <env name="SAUCE_USERNAME" value="vnscriptkid" />
-        <env name="SAUCE_ACCESS_KEY" value="03d29520-1bd4-499f-b3f8-2e784d7957e0" />
-      </envs>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAlert.makeSureSecondButtonWorksCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-app" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestAlert" />
-      <option name="METHOD_NAME" value="makeSureSecondButtonWorksCorrectly" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <envs>
-        <env name="SAUCE_USERNAME" value="vnscriptkid" />
-        <env name="SAUCE_ACCESS_KEY" value="03d29520-1bd4-499f-b3f8-2e784d7957e0" />
-      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHovers.hoverOnOneImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTable.testFirstTableEmailSorted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-app" />
       <useClassPathOnly />
       <extension name="coverage">
@@ -172,8 +128,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestHovers" />
-      <option name="METHOD_NAME" value="hoverOnOneImage" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestTable" />
+      <option name="METHOD_NAME" value="testFirstTableEmailSorted" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <envs>
@@ -184,7 +140,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHovers.hoversTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTable.testFirstTableSortedAscendingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-app" />
       <useClassPathOnly />
       <extension name="coverage">
@@ -194,8 +150,52 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestHovers" />
-      <option name="METHOD_NAME" value="hoversTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestTable" />
+      <option name="METHOD_NAME" value="testFirstTableSortedAscendingOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="SAUCE_USERNAME" value="vnscriptkid" />
+        <env name="SAUCE_ACCESS_KEY" value="03d29520-1bd4-499f-b3f8-2e784d7957e0" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTable.testFirstTableSortedDescendingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestTable" />
+      <option name="METHOD_NAME" value="testFirstTableSortedDescendingOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="SAUCE_USERNAME" value="vnscriptkid" />
+        <env name="SAUCE_ACCESS_KEY" value="03d29520-1bd4-499f-b3f8-2e784d7957e0" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTable.testSecondTableWebsitesSorted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestTable" />
+      <option name="METHOD_NAME" value="testSecondTableWebsitesSorted" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <envs>
@@ -221,19 +221,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestHovers.hoverOnOneImage" />
-      <item itemvalue="JUnit.TestHovers.hoversTest" />
-      <item itemvalue="JUnit.TestAlert.makeSureFirstButtonWorksCorrectly" />
-      <item itemvalue="JUnit.TestAlert.makeSureSecondButtonWorksCorrectly" />
       <item itemvalue="JUnit.TestAlert.makeSureThirdButtonWorksCorrectly" />
+      <item itemvalue="JUnit.TestTable.testFirstTableSortedAscendingOrder" />
+      <item itemvalue="JUnit.TestTable.testFirstTableSortedDescendingOrder" />
+      <item itemvalue="JUnit.TestTable.testFirstTableEmailSorted" />
+      <item itemvalue="JUnit.TestTable.testSecondTableWebsitesSorted" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestTable.testSecondTableWebsitesSorted" />
+        <item itemvalue="JUnit.TestTable.testFirstTableEmailSorted" />
+        <item itemvalue="JUnit.TestTable.testFirstTableSortedDescendingOrder" />
+        <item itemvalue="JUnit.TestTable.testFirstTableSortedAscendingOrder" />
         <item itemvalue="JUnit.TestAlert.makeSureThirdButtonWorksCorrectly" />
-        <item itemvalue="JUnit.TestAlert.makeSureSecondButtonWorksCorrectly" />
-        <item itemvalue="JUnit.TestAlert.makeSureFirstButtonWorksCorrectly" />
-        <item itemvalue="JUnit.TestHovers.hoverOnOneImage" />
-        <item itemvalue="JUnit.TestHovers.hoversTest" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +256,7 @@
       <workItem from="1598702661138" duration="11548000" />
       <workItem from="1598724357057" duration="1589000" />
       <workItem from="1598728414659" duration="752000" />
-      <workItem from="1598757889513" duration="15405000" />
+      <workItem from="1598757889513" duration="19906000" />
     </task>
     <servers />
   </component>
@@ -288,22 +288,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="551" y="281" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1598727654774" />
-    <state width="1493" height="257" key="GridCell.Tab.0.bottom" timestamp="1598797716289">
+    <state width="1493" height="332" key="GridCell.Tab.0.bottom" timestamp="1598804138339">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598797716289" />
-    <state width="1493" height="257" key="GridCell.Tab.0.center" timestamp="1598797716289">
+    <state width="1493" height="332" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598804138339" />
+    <state width="1493" height="332" key="GridCell.Tab.0.center" timestamp="1598804138339">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598797716289" />
-    <state width="1493" height="257" key="GridCell.Tab.0.left" timestamp="1598797716289">
+    <state width="1493" height="332" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598804138339" />
+    <state width="1493" height="332" key="GridCell.Tab.0.left" timestamp="1598804138339">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598797716289" />
-    <state width="1493" height="257" key="GridCell.Tab.0.right" timestamp="1598797716289">
+    <state width="1493" height="332" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598804138339" />
+    <state width="1493" height="332" key="GridCell.Tab.0.right" timestamp="1598804138339">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598797716289" />
+    <state width="1493" height="332" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598804138339" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1598717183860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
